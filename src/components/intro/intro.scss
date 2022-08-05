@@ -1,0 +1,17 @@
+.intro{
+    background-color: #ffc048;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        .voxelCanvas{
+            margin: 2rem;
+            width: calc(50vw - 10rem);
+            height: calc(100vh - 10rem);
+            background-color: aqua;
+        }
+    }
+    .right{
+        flex: 0.5;
+    }
+}
