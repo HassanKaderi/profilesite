@@ -1,19 +1,15 @@
 import "./intro.scss"
-import { Canvas} from "@react-three/fiber"
+import Char from '../model/Model'
+import { Canvas } from "@react-three/fiber"
 import { Suspense } from "react"
-import { OrbitControls } from "@react-three/drei"
-
 
 export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
         <Canvas>
-          <Suspense fallback={null}>
-            <OrbitControls/>
-            <ambientLight/>
-
-          </Suspense>
+          <Suspense><Char/></Suspense>
+          
         </Canvas>
       </div>
       <div className="right">
