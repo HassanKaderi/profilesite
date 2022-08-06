@@ -4,7 +4,7 @@
     width: 20vw;
     height: 100vh;
 
-    background-color: #d2dae2;
+    background-color: $mainColor;
     position: fixed;
     top: 0;
     right: -20vw;
@@ -17,6 +17,7 @@
 
     &.active{
         right: 0;
+        background-color: $secondaryColor;
     }
 
     ul{
