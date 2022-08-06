@@ -16,21 +16,6 @@
         padding: 0;
         list-style: none;
         display: flex;
-        li{
-            font-size: 14px;
-            margin-right: 50px;
-            padding: 7px;
-            border-radius: 5px;
-            cursor: pointer;
-            &.active{
-                border-radius: 10px;
-                border: 2px solid $mainColor;
-            }
-            &:hover{
-                background-color: $mainColor;
-                color: $secondaryColor;
-            }
-        }
     }
 
     .container{
@@ -51,10 +36,12 @@
             justify-content: center;
             color: $mainColor;
             position: relative;
-            transition: all .5s ease;
+            transition: all 1s ease;
+            
             cursor: pointer;
 
             &:hover{
+                
                 img{
                 background-color: $mainColor;
                 opacity: 0.2;

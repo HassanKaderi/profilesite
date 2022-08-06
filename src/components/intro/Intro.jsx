@@ -1,10 +1,11 @@
 
 import "./intro.scss"
-import Char from '../model/Model'
 import { Canvas } from "@react-three/fiber"
 import { Suspense, useEffect, useRef } from "react"
 import { OrbitControls } from "@react-three/drei"
 import { init } from "ityped"
+
+import { Model } from "../model/Model"
 
 
 export default function Intro() {
@@ -16,10 +17,10 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500, // Miliseconds
-      backSpeed: 60,
-      startDelay: 200,
+      backSpeed: 30,
+      startDelay: 500,
       cursorChar: "✏️", // i didnt even know I coulde use emojies this is dope
-      strings: ["Abuuk", "A Developer", "An Artist", "Determined", "Wait this is fun", "Were you expecting more?", "Come on now let me enjoy this"],
+      strings: ["Abuuk", "A Developer", "An Artist", "Determined", "The very best", "🎵 Like no one ever was 🎵"],
     });
   },[])
 
@@ -30,7 +31,7 @@ export default function Intro() {
           <Suspense>
             <spotLight/>
             <OrbitControls/>
-            <Char/>
+            <Model/>
           </Suspense>
         </Canvas>
       </div>

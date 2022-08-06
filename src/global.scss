@@ -3,3 +3,10 @@ $secondaryColor: #010101;
 $contrast: #5f43b2;
 $dimmerSecond: #b1aebb;
 $dimmerContrast: #3a3153;
+
+$width: 768px;
+@mixin  mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

@@ -1,3 +1,93 @@
+@import "../../global.scss";
+
+
 .contact{
-    background-color: #ffdd59;
+    background-color: $mainColor ;
+
+    display: flex;
+
+    .left{
+        color: $mainColor;
+        flex: 1;
+        background-color: $contrast;
+        position: relative;
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 20px;
+                span{
+                    font-size: inherit;
+                    color: $contrast;
+                }
+
+            }
+        }
+    }
+
+    .right{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            font-size: 30px;
+
+        }
+
+        form{
+            width: 70%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            input{
+                width: 300px;
+                height: 30px;
+                font-size: 14px;
+            }
+
+            textarea{
+                width: 300px;
+                height: 200px;
+                font-size: 14px;
+            }
+
+            button{
+                width: 150px;
+                height: 60px;
+                font-size: 30px;
+                color: $mainColor;
+                background-color: $contrast;
+                border-style: none;
+                border-radius: 10px;
+                cursor: pointer;
+
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            span{
+                color: $contrast;
+            }
+        }
+    }
 }

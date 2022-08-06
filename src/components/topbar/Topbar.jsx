@@ -10,6 +10,7 @@ export default function Topbar({menuOpen,setMenuOpen}) {
               <span>
                 HassanImadKaderi@gmail.com
               </span>
+              <a href="https://github.com/HassanKaderi">Github</a>
             </div>
           </div>
           <div className="right">

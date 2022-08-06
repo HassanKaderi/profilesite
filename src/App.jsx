@@ -5,6 +5,7 @@ import Projects from "./components/projects/Projects"
 import References from "./components/references/References"
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
+import Mobile from "./components/mobile/Mobile"
 import "./app.scss"
 import { useState } from "react"
 
@@ -16,6 +17,7 @@ function App() {
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
+        
         <Intro/>
         <Portfolio/>
         <Projects/>
