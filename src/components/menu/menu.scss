@@ -18,6 +18,9 @@
     &.active{
         right: 0;
         background-color: $secondaryColor;
+        @include mobile{
+            width: 100vw;
+        }
     }
 
     ul{

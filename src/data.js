@@ -2,7 +2,8 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Pokemon Pack Opener",
-        img: '/assets/unpacker-logo.png'
+        img: '/assets/unpacker-logo.png',
+        src: 'https://unpackeronline.netlify.app/'
     }
 
 
