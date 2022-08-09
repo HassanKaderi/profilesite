@@ -20,7 +20,7 @@ export default function References() {
       name: "Sandip Mishra",
       img: "https://avatars.githubusercontent.com/u/61094468?v=4",
       desc: "I told him REACT is important, so he learnt it the week after. ",
-      title: "Roblox Developer"
+      title: "Web Developer, GFX Designer"
     }
   ];
 
