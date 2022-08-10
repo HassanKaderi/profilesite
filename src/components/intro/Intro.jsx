@@ -1,8 +1,8 @@
 
 import "./intro.scss"
 import { Canvas } from "@react-three/fiber"
-import { Suspense, useEffect, useRef } from "react"
-import { OrbitControls } from "@react-three/drei"
+import { Suspense, useEffect, useRef} from "react"
+import { OrbitControls} from "@react-three/drei"
 import { init } from "ityped"
 
 import { Model } from "../model/Model"
@@ -24,13 +24,15 @@ export default function Intro() {
     });
   },[])
 
+  
+
   return (
     <div className="intro" id="intro">
       <div className="left">
-        <Canvas>
+        <Canvas camera={{position: [0,1.5,3]}}>
           <Suspense>
-            <spotLight/>
-            <OrbitControls/>
+            <hemisphereLight args={['#fff', '#333', 1,0,5]}/>
+            <OrbitControls autoRotate autoRotateSpeed={-2} enableRotate={false} enablePan={false} enableZoom={false}/>
             <Model/>
           </Suspense>
         </Canvas>
