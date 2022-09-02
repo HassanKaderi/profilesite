@@ -32,7 +32,7 @@ export default function Intro() {
         <Canvas camera={{position: [0,1.5,3]}}>
           <Suspense>
             <hemisphereLight args={['#fff', '#333', 1,0,5]}/>
-            <OrbitControls autoRotate autoRotateSpeed={-2} enableRotate={false} enablePan={false} enableZoom={false}/>
+            <OrbitControls autoRotate autoRotateSpeed={-2} enableRotate={true} enablePan={false} enableZoom={false}/>
             <Model/>
           </Suspense>
         </Canvas>
