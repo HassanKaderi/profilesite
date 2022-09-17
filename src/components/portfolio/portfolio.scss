@@ -66,8 +66,6 @@
             color: $mainColor;
             position: relative;
             transition: all 1s ease;
-            
-            cursor: pointer;
 
             @include mobile{
                 width: 130px;
@@ -83,6 +81,7 @@
             }
             h3{
                 opacity: 1;
+                
             }
             }
         }

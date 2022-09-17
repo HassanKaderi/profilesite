@@ -12,7 +12,7 @@ export default function References() {
     {
       name: "Chase McCarty",
       img: "https://media-exp1.licdn.com/dms/image/C5603AQFcKFLdMRh7hA/profile-displayphoto-shrink_800_800/0/1605311178654?e=1665014400&v=beta&t=E6QSJrY9O2DUpfHjpStEKUE82-KHtocAtBQ02ApjW3Q",
-      desc: "Very eger to learn new technolodgies and using them creativily",
+      desc: "Very eager to learn new technologies and using them creatively",
       title: "Software Enginner at Roblox",
       feature: true
     },
