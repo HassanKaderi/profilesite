@@ -11,7 +11,7 @@ export default function Projects() {
               <div className="imgContainer">
                 <img src="" alt="" />
               </div>
-              <h2>Title</h2>
+              <h2>Super Hero City v2 (WIP)</h2>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
               Aspernatur id enim placeat veniam expedita eaque, deserunt pariatur ad quidem minus soluta iusto facilis sunt velit asperiores quas laborum laboriosam corrupti?</p>
             <span>Projects
